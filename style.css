@@ -1,0 +1,102 @@
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+.stage {
+    text-align: center;
+}
+
+.square {
+    height: 370px;
+    width: 370px;
+    background-color: #26748E;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 2px;
+    /* box-shadow: 7px 8px 8px black;*/
+}
+
+.squ {
+    height: 1140px;
+    width: 1150px;
+    background-color: #283a41;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.O {
+    position: relative;
+}
+
+.O:after {
+    content: "O";
+    font-size: 21rem;
+    color: whitesmoke;
+    font-weight: 500;
+    line-height: 100px;
+    position: absolute;
+    color: #FFF;
+    /* left: 880px;
+    top: 97px;*/
+    left: 0;
+    top: 130px;
+    right: 0;
+    bottom: 0;
+}
+
+.X {
+    position: relative;
+}
+
+.X:after {
+    content: "X";
+    font-size: 20rem;
+    color: whitesmoke;
+    font-weight: 500;
+    line-height: 100px;
+    position: absolute;
+    color: white;
+    /* left: 880px;
+    top: 97px;*/
+    left: 0;
+    top: 130px;
+    right: 0;
+    bottom: 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(33, 212, 33);
+    animation-name: venceu;
+    font-size: 3rem;
+}
+
+#NJ {
+    height: 100px;
+    width: 220px;
+    background-color: #283a41;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left: 48%;
+    border-radius: 10px;
+    box-shadow: 7px 8px 8px black;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 300;
+    color: white;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 6rem;
+}
